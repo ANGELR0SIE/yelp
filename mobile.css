@@ -1,0 +1,77 @@
+@font-face {
+    font-family: font1;
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-regular.yji-aff9b80e384301f2ae0c.woff2);
+}
+@font-face {
+    font-family: font2;
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-semibold.yji-d3abae27d3eac73b40a5.woff2);
+}
+@font-face {
+    font-family: font3;
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
+}
+@font-face {
+    font-family: font4;
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
+}
+@font-face {
+    font-family: font5;
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    background: #d32323;
+    display: flex;
+    flex-direction: row;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 43.98px;
+    justify-content: center;
+    /* border-color: #e6e6e6; */
+}
+.open-app{
+
+    margin-left: 5px;
+    opacity: 1;
+    left: 0;
+    background-color: transparent;
+    /* position: absolute; */
+    border:none;
+    
+}
+.open-app span{
+    align-items: center;
+    background-color: #bc1d25;
+    border: 1px solid #91151c;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 6px 9px 6px 6px;
+    font-size: 12px;
+    font-family: font1;
+}
+
+.flex-1-spacer{
+    flex: 1;
+}
+.three-line-icon{
+    margin-right: 9px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logo img{
+    display: block;
+    height: 25.98px;
+    width: 51.96px;
+}
+
