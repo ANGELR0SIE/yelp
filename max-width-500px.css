@@ -1,0 +1,308 @@
+@font-face {
+    font-family: font-g;
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-regular.yji-aff9b80e384301f2ae0c.woff2);
+}
+@font-face {
+    font-family: font6;
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
+}
+@media(max-width:500px){
+    .desktop{
+        display: none;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    .mobile{
+        display: block;
+    }
+    .nav-bar-for-mobile{
+        background-color: #d32323;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .nav-bar-log-section{
+        display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    }
+    .open-app{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #bc1d25;
+        border: 1px solid #91151c;
+        color: #fff;
+        padding: 6px 9px 6px 6px;
+        border-radius: 3px;
+        margin-left: 9px;
+        gap: 1px;
+        max-height: 30px;
+    }
+    .open-app span{
+        width: 16px;
+        height: 16px;
+        
+    }
+    .open-app p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .threeline{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px;
+        padding-top: 13px;
+        margin-right: 9px;
+        height: 44px;
+        width: 44px;
+        box-sizing: border-box;
+    
+    }
+    .yelp-logo{
+        position: absolute;
+        top: 9px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .yelp-logo img{
+        height: 25.98px;
+    width: 51.96px
+    }
+    .nav-search-bar-section{
+        width: 96%;
+    }
+    .search-bar{
+    margin: 8px 10px 10px 10px;
+    display: flex;
+    background-color: #fff;
+    height: 48px;
+    border-radius: 3px;
+    }
+    .search-icon{
+        margin-left: 18px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .search-bar input {
+        padding: 12px 16px 14px;
+        width: 100%;
+        border: none;
+        line-height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        border-radius: 3px;
+        font-family: font-g;
+}
+.categories-mobile{
+    margin-top: 109.5px;
+}
+.categories-grid{
+    padding: 18px 12px 12px;
+    margin-bottom: 19px;
+    display: grid;
+    grid-gap: 7px;
+    grid-row-gap: 7px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-item {
+    padding: 0 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.grid-item img {
+    width: 36px;
+    height: 36px;
+    padding-left: 2px;
+    margin: 0 auto;
+}
+.grid-item p {
+    margin: 0;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 1px;
+    line-height: 18px;
+}
+.serives{
+    margin: 0 12px;
+}
+.service-head{
+    font-size: 16px;
+    text-align: left;
+    color: #333;
+    font-family: Helvetica Neue, sans-serif;
+    padding-bottom: 16px;
+    font-weight: 800;
+    letter-spacing: -0.2px;
+   margin-top: 25px;
+}
+
+.scrollable-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 12px;
+    scrollbar-width: none;
+}
+.container-items p {
+    margin:0;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333;
+    font-family: font-g;
+    letter-spacing: -0.61px;
+}
+.container-items img{
+    border-radius: 4px;
+}
+.open-yelp{
+    margin: 0 12px 24px;
+    border-color: #e6e6e6;
+}
+.open-yelp-flex{
+    height: 48px;
+    background-color: rgba(45, 46, 47, 1);
+    color: #fff;
+    width: 100%;
+    padding: 12px 32px;
+    display: inline-flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 1px;
+    font-family: font-g;
+    font-weight: 700;
+}
+.bussiness-nearby{
+    margin-bottom: 24px;
+}
+.bussiness-nearby-head{
+    font-size: 21px;
+    /* font-weight: 700; */
+    margin-bottom: 6px;
+    color: #333;
+    font-family: font3;
+    padding-top: 0;
+    line-height: 27px;
+    margin-left: 12px;
+}
+.business-items{
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6; 
+}
+.business-items-image img{
+    width: 60px;
+    height: 60px;
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+}
+.business-items-content{
+
+}
+.business-items-content-head{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: font3;
+}
+.business-items-content-rating{
+    display: flex;
+    gap: 10px;
+    margin: 4px 0;
+
+}
+.business-items-content-items{
+    font-size: 12px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(102, 102, 102);
+}
+.business-items-content-view-more{
+    margin: 12px;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgb(102, 102, 102);
+    border: 1px solid #e6e6e6;
+    font-family: font2;
+}
+.restaurant-near-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.restaurant-near-me h3{
+    font-size: 14px;
+    color: #333;
+    font-family: font2;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+}
+.restaurant-near-me span{
+    font-size: 14px;
+    font-family: font1;
+    line-height: 20px;
+}
+.footer-for-desktop{
+    padding: 48px 24px;
+    background-color: rgba(247, 247, 247, 1);
+    border-color: rgba(235, 235, 235, 1);
+}
+.footer-head{
+    font-family: "Open Sans", Helvetica Neue, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgba(45, 46, 47, 1);
+    text-align: left;
+}
+.footer-sub-head{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgba(110, 112, 114, 1);
+    text-align: left;
+    padding: 8px 0px 0px;
+    margin-bottom: 16px;
+}
+#c{}
+.footer-links {
+    margin-top: 32px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.footer-links li {
+    color: #027a97;
+    list-style-type: disc;
+}
+}

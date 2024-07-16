@@ -1,0 +1,54 @@
+.banner-image {
+    background: url(https://s3-media0.fl.yelpcdn.com/educatorphoto/xfKgg4ymAXsJLQB13m8baQ/o.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+.gradient{
+    position: relative;
+        background: linear-gradient(90deg, #0006, #0000001a 55%);
+        z-index: 1;
+}
+.nav-bar-desktop{
+    background: linear-gradient(180deg, #000000b3, #0000004d 72.92%, #0000);
+    padding: 24px 40px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.banner-body{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 40px;
+    max-width: 1224px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.nav-bar-part1{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 960px;
+}
+.nav-bar-part-2{
+    display: flex;
+    margin-left: 112px;
+    padding-left: calc((100vw - 1144px) / 2 - 161px);
+}
+.yelp-logo-banner{
+    margin-right: 32px;
+        display: flex;
+        padding-right: calc((100vw - 1144px) / 2 - 143px) !important;
+        align-items: center;
+        min-width: 80px;
+        box-sizing: border-box;
+    }
+    .nav-bar-part1-second-flex{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav-searchbar{
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 800px;
+    }
