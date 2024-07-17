@@ -6,7 +6,7 @@
     font-family: font6;
     src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
 }
-@media(max-width:500px){
+@media(max-width:650px){
     .desktop{
         display: none;
     }

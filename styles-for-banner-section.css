@@ -13,11 +13,11 @@
   }
   @font-face {
     font-family: font4;
-    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/poppins-bold.yji-9690ce6275ddc5645cfa.woff2);
   }
   @font-face {
     font-family: font5;
-    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/open-sans-bold.yji-1145ff0b749fff2d31bb.woff2);
+    src: url(https://s3-media0.fl.yelpcdn.com/assets/public/poppins-medium.yji-dc16a3592fdb61b620cc.woff2);
   }
   body,
   html {
@@ -84,7 +84,8 @@ input{
         display: flex;
         width: 100%;
         box-sizing: border-box;
-        max-width: 800px;
+        max-width: 669.19px;
+        border-radius: 4px;
     }
     .nav-search-bar-input{
         display: flex;
@@ -162,7 +163,7 @@ input{
         border-radius: 4px;
     }
     .nav-login-btn span {
-        font-family: font2;
+        font-family: font5;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -182,7 +183,7 @@ input{
     border: none;
    }
    .nav-signup-btn span{
-    font-family: font2;
+    font-family: font5;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
@@ -266,4 +267,16 @@ input{
     border: none;
     height: 48px;
     box-sizing: border-box;
+ }
+ .stop-button{
+    background: transparent;
+        border: 1px solid rgba(200, 201, 202, 1);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        height: 44px;
+        padding: 9px;
+        width: 44px;
+        margin: 12px 0 0;
  }
