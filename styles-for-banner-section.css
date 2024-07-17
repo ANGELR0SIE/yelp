@@ -66,11 +66,12 @@ input{
     display: flex;
     margin-left: 112px;
     padding-left: calc((100vw - 1144px) / 2 - 161px);
+    /* margin-top: -1px; */
 }
 .yelp-logo-banner{
     margin-right: 32px;
         display: flex;
-        padding-right: calc((100vw - 1144px) / 2 - 143px);
+        padding-right: calc((100vw - 1144px) / 2 - 147px);
         align-items: center;
         min-width: 80px;
         box-sizing: border-box;
@@ -116,9 +117,15 @@ input{
         box-sizing: border-box;
         width: 100%;
         border: none;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
     }
     #color-black input{
         color: #000;
+    }
+    .color-black input{
+        border: none;
+        border-radius: 0;
     }
     .bussiness-login{
         display: inline-block;
@@ -130,6 +137,7 @@ input{
     align-items: center;
     height: 48px;
     justify-content: flex-end;
+    min-width: 0;
    }
    .business-item{
     padding: 8px;
@@ -200,9 +208,15 @@ input{
         font-weight: 400;
         line-height: 20px;
         text-align: left;
+        gap: 4px;
+        margin-top: -1px;
+        white-space: nowrap;
+   }
+   .nav-bar-part-2-item svg{
+    padding-bottom: 3px !important;
    }
    .banner-body-content{
-    padding: 64px 0 200px;
+    padding: 63px 0 200px;
     display: flex;
     gap: 14px;
    }
@@ -234,7 +248,7 @@ input{
         height: 44px;
         padding: 9px;
         width: 44px;
-        margin: 12px 0 0;
+        margin: 4px 0 0;
  }
  .stop-button span{
     display: flex;
@@ -243,7 +257,7 @@ input{
     
  }
  .banner-body-texts-head h2{
-    font-family: font3;
+    font-family: font4;
     font-size: 48px;
     font-weight: 700;
     letter-spacing: -0.4px;
@@ -267,16 +281,4 @@ input{
     border: none;
     height: 48px;
     box-sizing: border-box;
- }
- .stop-button{
-    background: transparent;
-        border: 1px solid rgba(200, 201, 202, 1);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        height: 44px;
-        padding: 9px;
-        width: 44px;
-        margin: 12px 0 0;
  }
