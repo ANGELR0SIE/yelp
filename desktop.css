@@ -360,6 +360,10 @@ body {
   align-items: center;
   gap: 5px;
 }
+.nav-searchbar{
+  max-width: 814.19px !important;
+}
+
 @media(max-width:1400px){
   .nav-searchbar{
     max-width: 556px !important;

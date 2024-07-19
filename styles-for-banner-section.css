@@ -71,7 +71,7 @@ input{
 .yelp-logo-banner{
     margin-right: 32px;
         display: flex;
-        padding-right: calc((100vw - 1144px) / 2 - 147px);
+        padding-right: calc((100vw - 1144px) / 2 - 143px);
         align-items: center;
         min-width: 80px;
         box-sizing: border-box;
@@ -105,6 +105,9 @@ input{
         border-radius: 4px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+    }
+    .nav-search-bar-icon svg{
+        margin-top: 1px;
     }
     .nav-search-bar-input input{
         padding: 13px 16px;
@@ -141,11 +144,12 @@ input{
    }
    .business-item{
     padding: 8px;
-        margin-right: 16px;
+        margin-right: 15px;
         margin-left: 2px;
         display: inline;
         align-items: center;
         box-sizing: border-box;
+        margin-top: -3px;
    }
    .business-item span{
     color: #fff;
@@ -158,6 +162,9 @@ input{
     display: flex;
     align-items: flex-end;
     gap: 4px;
+   }
+   .business-item svg{
+    margin-bottom: 2px;
    }
    .nav-login-btn{
     background: transparent;
@@ -209,14 +216,14 @@ input{
         line-height: 20px;
         text-align: left;
         gap: 4px;
-        margin-top: -1px;
+        margin-top: -3px;
         white-space: nowrap;
    }
    .nav-bar-part-2-item svg{
     padding-bottom: 3px !important;
    }
    .banner-body-content{
-    padding: 63px 0 200px;
+    padding: 62px 0 200px;
     display: flex;
     gap: 14px;
    }
@@ -248,7 +255,7 @@ input{
         height: 44px;
         padding: 9px;
         width: 44px;
-        margin: 4px 0 0;
+        margin: 2px 0 0;
  }
  .stop-button span{
     display: flex;
@@ -274,11 +281,11 @@ input{
     align-items: stretch;
     gap: 8px;
     font-size: 16px;
-    font-weight: 500;
-    font-family: font2;
+    font-family: font5;
     letter-spacing: -0.2px;
     line-height: 24px;
     border: none;
     height: 48px;
     box-sizing: border-box;
+    border-radius: 4px;
  }
